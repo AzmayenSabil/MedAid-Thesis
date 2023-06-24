@@ -1,0 +1,18 @@
+Dataset/Paper/Books/OtherResources  --> questions gather
+
+Using those questions -> take answer from patients 
+
+
+-----------------------------------------------------
+
+Disease-symptoms-dataset --> Model train to predict disease
+
+-----------------------------------------------------
+
+now predict the probable disease from the answers of a patient using the MODEL
+
+Generate a SCORE
+
+-----------------------------------------------------
+
+Using the score, next questions will be genrated/showed to the patient
