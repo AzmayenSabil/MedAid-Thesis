@@ -1,0 +1,2 @@
+Paper: 1 -> Journal of Internal Medicine - 2016 - Zakim - Development and significance of automated history‐taking software
+ref: 26,27,28,30,31,35,39
