@@ -1,0 +1,29 @@
+Initialize Scores:
+For each disease in the dataset:
+    Set the initial score to 0
+
+Weighted Scoring:
+For each symptom or answer provided by the patient:
+    For each disease in the dataset:
+        If the symptom is relevant to the disease:
+            Increase the score of the disease by the weight assigned to the symptom
+
+Score Adjustment:
+For each disease in the dataset:
+    Adjust the score based on the relevance and specificity of symptoms reported by the patient
+    Adjust the score based on the severity or frequency of reported symptoms
+
+Dynamic Score Updates:
+After each question or response:
+    Update the scores of potential diseases based on the accumulated patient data
+    Consider conditional probabilities of symptoms occurring together in specific diseases
+
+Threshold Determination:
+Set a threshold score value to determine when a disease is considered highly likely or probable
+
+Iterative Scoring:
+Repeat the weighted scoring, score adjustment, and dynamic score updates process as more questions are asked and more information is gathered
+
+Disease Reassessment:
+Periodically reassess the scores and update the likelihood of diseases based on the accumulated patient information
+Consider the temporal aspects of symptoms and potential changes in the patient's condition
