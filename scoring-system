@@ -27,3 +27,16 @@ Repeat the weighted scoring, score adjustment, and dynamic score updates process
 Disease Reassessment:
 Periodically reassess the scores and update the likelihood of diseases based on the accumulated patient information
 Consider the temporal aspects of symptoms and potential changes in the patient's condition
+
+
+
+
+d1 -> s1 s2=3 s3=1
+
+d2 -> s2=1 s3=4 s4
+ 
+d3 -> s4 s5 s1 s6
+
+
+
+q1 - a1 - s1 - (d-s) - d1(h),d2,d5
