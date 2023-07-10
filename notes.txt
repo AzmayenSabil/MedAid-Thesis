@@ -1,8 +1,13 @@
-Paper: 1 -> Journal of Internal Medicine - 2016 - Zakim - Development and significance of automated history‐taking software
+Paper: 1 -> Journal of Internal Medicine - 2016 - Zakim - Development and significance of 
+automated history‐taking software
 ref: 26,27,28,30,31,35,39
+
 summary: this paper explains different way of other implemented papers on our thesis. (kidna parent paper)
 
 Paper: 2 -> Obtaining patients’ medical history using a digital device prior to consultation
 summary: DASI app
 
 Paper: 3 -> Cornell Medial Index (CMI) -- XX
+
+Clinical Expert Operating System-Chest Pain 
+Danderyd Study (CLEOS-CPDS)
