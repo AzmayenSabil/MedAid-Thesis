@@ -1,0 +1,141 @@
+{
+  "D1": "Coronary artery disease",
+  "D2": "Heart failure",
+  "D3": "Valvular disease",
+  "D4": "Angina",
+  "D5": "Pulmonary embolism",
+  "D6": "Pulmonary hypertension",
+  "D7": "Heart attack",
+  "D8": "Arrhythmia",
+  "D9": "Pericarditis",
+  "D10": "Cardiomyopathy",
+  "D11": "Orthostatic hypotension",
+  "D12": "Gastroesophageal reflux disease (GERD)",
+  "D13": "Chronic obstructive pulmonary disease (COPD)",
+  "D14": "Esophageal cancer",
+  "D15": "Stroke",
+  "D16": "Peripheral artery disease",
+  "D17": "Heart disease",
+  "D18": "Congestive heart failure",
+  "D19": "Deep vein thrombosis",
+  "D20": "Venous insufficiency",
+  "D21": "Atrial fibrillation (AFib)",
+  "D22": "Hypertension (high blood pressure)",
+  "D23": "Raynaud's phenomenon"
+}
+
+
+
+{
+  "s1": "Angina",
+  "s2": "Dyspnea",
+  "s3": "Chest pain",
+  "s4": "Pressure or squeezing in the chest",
+  "s5": "Lightheadedness",
+  "s6": "Heartburn",
+  "s7": "Wheezing",
+  "s8": "Asthma",
+  "s9": "Dizziness",
+  "s10": "Fainting",
+  "s11": "Decreased urine output",
+  "s12": "Nocturia",
+  "s13": "Edema",
+  "s14": "Shortness of breath",
+  "s15": "Palpitations",
+  "s16": "Fatigue",
+  "s17": "Swelling in the hands and feet",
+  "s18": "Depression",
+  "s19": "Anxiety",
+  "s20": "High blood pressure",
+  "s21": "Headaches",
+  "s22": "Swelling in the legs",
+  "s23": "Leg pain",
+  "s24": "Night leg pain",
+  "s25": "Vision problem",
+  "s26": "Numbness or tingling in the hands or feet",
+  "s27": "Changes in vision",
+  "s28": "Rapid weight gain",
+  "s29": "Blue fingernails",
+  "s30": "Lips",
+  "s31": "Abdominal pain",
+  "s32": "Loss of appetite",
+  "s33": "Weight gain",
+  "s34": "Rapid heartbeat",
+  "s35": "Insomnia"
+}
+
+
+{
+  "general_questions: {
+    "family_history": {
+      "Q1": {
+        "question": "Does anyone in your family have a history of heart disease or stroke?",
+        "answer": null,
+        "type": "yes/no"
+      }
+    },
+    "past_history": {
+      "Q2": {
+        "question": "Have you ever had any heart problems before? Have you ever had high blood pressure or high cholesterol?",
+        "answer": null,
+        "type": "yes/no"
+      }
+    },
+    "age": {
+      "Q3": {
+        "question": "How old are you?",
+        "answer": null,
+        "type": "dropdown",
+        "options": [
+          "< 18",
+          "18-30",
+          "31-40",
+          "41-50",
+          "> 50"
+        ]
+      }
+    },
+    "gender": {
+      "Q4": {
+        "question": "What is your gender?",
+        "answer": null,
+        "type": "dropdown",
+        "options": [
+          "Male",
+          "Female",
+          "Other"
+        ]
+      }
+    },
+    "drug_history": {
+      "Q5": {
+        "question": "Are you taking any medications for your heart or blood pressure? Have you ever taken any medications for your heart or blood pressure?",
+        "answer": null,
+        "type": "yes/no"
+      }
+    },
+    "alcohol": {
+      "Q6": {
+        "question": "Do you drink alcohol?",
+        "answer": null,
+        "type": "yes/no"
+      }
+    },
+    "smoking": {
+      "Q7": {
+        "question": "Do you smoke?”,
+        "answer": null,
+        "type": "yes/no"
+      }
+    },
+    "sleep_related_issues": {
+      "Q8": {
+        "question":"Do you have any sleep-related issues such as snoring or sleep apnea?",
+        "answer" : null,
+        "type": "yes/no"
+      }
+    }
+  }
+}
+
+
