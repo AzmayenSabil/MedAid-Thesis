@@ -135,6 +135,406 @@
         "type": "yes/no"
       }
     }
+  },
+  "specific_questions": {
+    "s1": {
+      "symptom": "Angina",
+      "questions": {
+        "q1": "Site: Where do you feel the chest pain?",
+        "q2": "Onset: When did the chest pain start?",
+        "q3": "Character: How would you describe the chest pain (e.g., sharp, squeezing, burning)?",
+        "q4": "Radiation: Does the chest pain spread to any other areas?",
+        "q5": "Associations: Are there any other symptoms associated with the chest pain (e.g., shortness of breath, sweating)?",
+        "q6": "Time course: How long does the chest pain usually last?",
+        "q7": "Exacerbating/Relieving factors: What makes the chest pain better or worse?"
+      }
+    },
+    "s2": {
+      "symptom": "Dyspnea",
+      "questions": {
+        "q1": "Site: Where do you feel the shortness of breath?",
+        "q2": "Onset: When did the shortness of breath start?",
+        "q3": "Character: How would you describe the shortness of breath (e.g., difficulty breathing, rapid breathing)?",
+        "q4": "Radiation: Does the shortness of breath spread to any other areas?",
+        "q5": "Associations: Are there any other symptoms associated with the shortness of breath (e.g., chest pain, wheezing)?",
+        "q6": "Time course: How long does the shortness of breath usually last?",
+        "q7": "Exacerbating/Relieving factors: What makes the shortness of breath better or worse?"
+      }
+    },
+    "s3": {
+      "symptom": "Chest pain",
+      "questions": {
+        "q1": "Site: Where do you feel the chest pain?",
+        "q2": "Onset: When did the chest pain start?",
+        "q3": "Character: How would you describe the chest pain (e.g., sharp, stabbing, pressure)?",
+        "q4": "Radiation: Does the chest pain spread to any other areas?",
+        "q5": "Associations: Are there any other symptoms associated with the chest pain (e.g., shortness of breath, lightheadedness)?",
+        "q6": "Time course: How long does the chest pain usually last?",
+        "q7": "Exacerbating/Relieving factors: What makes the chest pain better or worse?"
+      }
+    },
+    "s4": {
+      "symptom": "Pressure or squeezing in the chest",
+      "questions": {
+        "q1": "Site: Where do you feel the pressure or squeezing in the chest?",
+        "q2": "Onset: When did the sensation start?",
+        "q3": "Character: How would you describe the sensation (e.g., tightness, heaviness)?",
+        "q4": "Radiation: Does the sensation spread to any other areas?",
+        "q5": "Associations: Are there any other symptoms associated with the sensation (e.g., shortness of breath, sweating)?",
+        "q6": "Time course: How long does the sensation usually last?",
+        "q7": "Exacerbating/Relieving factors: What makes the sensation better or worse?"
+      }
+    },
+    "s5": {
+      "symptom": "Lightheadedness",
+      "questions": {
+        "q1": "Site: Where do you feel lightheaded?",
+        "q2": "Onset: When did the lightheadedness start?",
+        "q3": "Character: How would you describe the lightheadedness (e.g., feeling faint, dizzy)?",
+        "q4": "Associations: Are there any other symptoms associated with lightheadedness (e.g., nausea, blurred vision)?",
+        "q5": "Time course: How long does the lightheadedness usually last?",
+        "q6": "Exacerbating/Relieving factors: What makes the lightheadedness better or worse?"
+      }
+    },
+    "s6": {
+      "symptom": "Heartburn",
+      "questions": {
+        "q1": "Site: Where do you feel the heartburn?",
+        "q2": "Onset: When did the heartburn start?",
+        "q3": "Character: How would you describe the heartburn (e.g., burning sensation in the chest, throat)?",
+        "q4": "Associations: Are there any other symptoms associated with heartburn (e.g., regurgitation of food, sour taste in mouth)?",
+        "q5": "Time course: How long does the heartburn usually last?",
+        "q6": "Exacerbating/Relieving factors: What makes the heartburn better or worse?"
+      }
+    },
+    "s7": {
+      "symptom": "Wheezing",
+      "questions": {
+        "q1": "Site: Where do you experience wheezing?",
+        "q2": "Onset: When did the wheezing start?",
+        "q3": "Character: How would you describe the wheezing (e.g., high-pitched whistling sound during breathing)?",
+        "q4": "Associations: Are there any other symptoms associated with wheezing (e.g., shortness of breath, cough)?",
+        "q5": "Time course: How long does the wheezing usually last?",
+        "q6": "Exacerbating/Relieving factors: What makes the wheezing better or worse?"
+      }
+    },
+    "s8": {
+      "symptom": "Asthma",
+      "questions": {
+        "q1": "Site: Where do you feel the symptoms of asthma?",
+        "q2": "Onset: When did the asthma symptoms start?",
+        "q3": "Character: How would you describe the asthma symptoms (e.g., difficulty breathing, chest tightness)?",
+        "q4": "Associations: Are there any other symptoms associated with asthma (e.g., wheezing, cough)?",
+        "q5": "Time course: How long do the asthma symptoms usually last?",
+        "q6": "Exacerbating/Relieving factors: What makes the asthma symptoms better or worse?"
+      }
+    },
+    "s9": {
+    "symptom": "Dizziness",
+      "questions": {
+        "q1": "Site: Where do you feel the dizziness?",
+        "q2": "Onset: When did the dizziness start?",
+        "q3": "Character: How would you describe the dizziness (e.g., feeling lightheaded, spinning sensation)?",
+        "q4": "Associations: Are there any other symptoms associated with dizziness (e.g., nausea, visual disturbances)?",
+        "q5": "Time course: How long does the dizziness usually last?",
+        "q6": "Exacerbating/Relieving factors: What makes the dizziness better or worse?"
+      }
+    },
+    "s10": {
+      "symptom": "Fainting",
+      "questions": {
+        "q1": "Site: Where did you faint?",
+        "q2": "Onset: When did the fainting episode happen?",
+        "q3": "Character: How would you describe the fainting episode (e.g., sudden loss of consciousness, feeling weak)?",
+        "q4": "Associations: Are there any other symptoms associated with fainting (e.g., dizziness, sweating)?",
+        "q5": "Time course: How long did the fainting episode last?",
+        "q6": "Exacerbating/Relieving factors: What do you think triggered the fainting episode?"
+      }
+    },
+    "s11": {
+      "symptom": "Decreased urine output",
+      "questions": {
+        "q1": "Site: Do you experience any discomfort while passing urine?",
+        "q2": "Onset: When did you notice a decrease in urine output?",
+        "q3": "Character: How would you describe the change in urine output (e.g., reduced amount, painful urination)?",
+        "q4": "Associations: Are there any other symptoms associated with decreased urine output (e.g., lower back pain, swelling in legs)?",
+        "q5": "Time course: How long have you noticed this change in urine output?",
+        "q6": "Exacerbating/Relieving factors: What factors seem to affect your urine output?"
+      }
+    },
+    "s12": {
+      "symptom": "Nocturia",
+      "questions": {
+        "q1": "Site: Do you experience any discomfort while passing urine at night?",
+        "q2": "Onset: When did you start waking up at night to urinate?",
+        "q3": "Character: How would you describe the nocturia (e.g., frequent urination, urgency)?",
+        "q4": "Associations: Are there any other symptoms associated with nocturia (e.g., daytime fatigue, increased thirst)?",
+        "q5": "Time course: How long have you been experiencing nocturia?",
+        "q6": "Exacerbating/Relieving factors: What factors seem to worsen or alleviate nocturia?"
+      }
+    },
+    "s13": {
+      "symptom": "Edema",
+      "questions": {
+        "q1": "Site: Where is the swelling located (e.g., legs, ankles, hands)?",
+        "q2": "Onset: When did you notice the swelling?",
+        "q3": "Character: How would you describe the edema (e.g., pitting, non-pitting)?",
+        "q4": "Associations: Are there any other symptoms associated with the edema (e.g., shortness of breath, weight gain)?",
+        "q5": "Time course: How long have you had the swelling?",
+        "q6": "Exacerbating/Relieving factors: What seems to worsen or alleviate the edema?"
+      }
+    },
+    "s14": {
+      "symptom": "Shortness of breath",
+      "questions": {
+        "q1": "Site: Where do you feel the shortness of breath?",
+        "q2": "Onset: When did the shortness of breath start?",
+        "q3": "Character: How would you describe the shortness of breath (e.g., difficulty breathing, rapid breathing)?",
+        "q4": "Radiation: Does the shortness of breath spread to any other areas?",
+        "q5": "Associations: Are there any other symptoms associated with the shortness of breath (e.g., chest pain, wheezing)?",
+        "q6": "Time course: How long does the shortness of breath usually last?",
+        "q7": "Exacerbating/Relieving factors: What makes the shortness of breath better or worse?"
+      }
+    },
+    "s15": {
+      "symptom": "Palpitations",
+      "questions": {
+        "q1": "Site: Where do you feel the palpitations?",
+        "q2": "Onset: When did the palpitations start?",
+        "q3": "Character: How would you describe the palpitations (e.g., skipping beats, rapid heartbeats)?",
+        "q4": "Associations: Are there any triggers for palpitations (e.g., stress, exercise)?",
+        "q5": "Time course: How long do the palpitations typically last?",
+        "q6": "Exacerbating/Relieving factors: What seems to worsen or alleviate the palpitations?"
+      }
+    },
+    "s16": {
+      "symptom": "Fatigue",
+      "questions": {
+        "q1": "Site: Do you experience fatigue throughout your body?",
+        "q2": "Onset: When did you start feeling fatigued?",
+        "q3": "Character: How would you describe the fatigue (e.g., constant tiredness, lack of energy)?",
+        "q4": "Associations: Are there any other symptoms associated with fatigue (e.g., shortness of breath, weakness)?",
+        "q5": "Time course: How long have you been experiencing fatigue?",
+        "q6": "Exacerbating/Relieving factors: What seems to worsen or alleviate the fatigue?"
+      }
+    },
+    "s16": {
+      "symptom": "Fatigue",
+      "questions": {
+        "q1": "Site: Do you experience fatigue throughout your body?",
+        "q2": "Onset: When did you start feeling fatigued?",
+        "q3": "Character: How would you describe the fatigue (e.g., constant tiredness, lack of energy)?",
+        "q4": "Associations: Are there any other symptoms associated with fatigue (e.g., shortness of breath, weakness)?",
+        "q5": "Time course: How long have you been experiencing fatigue?",
+        "q6": "Exacerbating/Relieving factors: What seems to worsen or alleviate the fatigue?"
+      }
+    },
+    "s17": {
+      "symptom": "Swelling in the hands and feet",
+      "questions": {
+        "q1": "Site: Where is the swelling located (e.g., hands, feet)?",
+        "q2": "Onset: When did you notice the swelling?",
+        "q3": "Character: How would you describe the swelling (e.g., pitting, non-pitting)?",
+        "q4": "Associations: Are there any other symptoms associated with the swelling (e.g., shortness of breath, weight gain)?",
+        "q5": "Time course: How long have you had the swelling?",
+        "q6": "Exacerbating/Relieving factors: What seems to worsen or alleviate the swelling?"
+      }
+    },
+    "s18": {
+      "symptom": "Depression",
+      "questions": {
+        "q1": "Site: How do you experience depression (e.g., feelings of sadness, hopelessness)?",
+        "q2": "Onset: When did you start feeling depressed?",
+        "q3": "Character: How would you describe your mood (e.g., low, irritable)?",
+        "q4": "Associations: Are there any triggers for your depression (e.g., specific events, changes in life)?",
+        "q5": "Time course: How long have you been experiencing depression?",
+        "q6": "Exacerbating/Relieving factors: What seems to worsen or alleviate your depression?"
+      }
+    },
+    "s19": {
+      "symptom": "Anxiety",
+      "questions": {
+        "q1": "Site: How do you experience anxiety (e.g., feelings of worry, nervousness)?",
+        "q2": "Onset: When did you start feeling anxious?",
+        "q3": "Character: How would you describe your anxiety (e.g., constant, intermittent)?",
+        "q4": "Associations: Are there any triggers for your anxiety (e.g., specific situations, stressors)?",
+        "q5": "Time course: How long have you been experiencing anxiety?",
+        "q6": "Exacerbating/Relieving factors: What seems to worsen or alleviate your anxiety?"
+      }
+    },
+    "s20": {
+      "symptom": "High blood pressure",
+      "questions": {
+        "q1": "Site: Have you measured your blood pressure?",
+        "q2": "Onset: When did you first become aware of having high blood pressure?",
+        "q3": "Character: How would you describe your blood pressure readings (e.g., consistently high, fluctuating)?",
+        "q4": "Associations: Are there any other symptoms associated with your high blood pressure?",
+        "q5": "Time course: How long have you known about your high blood pressure?",
+        "q6": "Exacerbating/Relieving factors: What seems to affect your blood pressure readings (e.g., stress, medications)?"
+      }
+    },
+    "s21": {
+      "symptom": "Headaches",
+      "questions": {
+        "q1": "Site: Where do you usually experience headaches?",
+        "q2": "Onset: When did the headaches start?",
+        "q3": "Character: How would you describe the headaches (e.g., throbbing, dull, sharp)?",
+        "q4": "Radiation: Do the headaches spread to any other areas?",
+        "q5": "Associations: Are there any other symptoms associated with the headaches (e.g., nausea, visual changes)?",
+        "q6": "Time course: How long do the headaches typically last?",
+        "q7": "Exacerbating/Relieving factors: What seems to worsen or alleviate the headaches?"
+      }
+    },
+    "s22": {
+      "symptom": "Swelling in the legs",
+      "questions": {
+        "q1": "Site: Where is the swelling located in your legs (e.g., thighs, calves)?",
+        "q2": "Onset: When did you first notice the swelling in your legs?",
+        "q3": "Character: How would you describe the swelling (e.g., pitting, non-pitting, soft, hard)?",
+        "q4": "Radiation: Does the swelling spread to any other areas of your body?",
+        "q5": "Associations: Are there any other symptoms associated with the swelling in your legs (e.g., pain, discoloration)?",
+        "q6": "Time course: How long have you had the swelling in your legs?",
+        "q7": "Exacerbating/Relieving factors: What seems to worsen or alleviate the swelling in your legs?"
+      }
+    },
+    "s23": {
+      "symptom": "Leg pain",
+      "questions": {
+        "q1": "Site: Where in your legs do you experience pain?",
+        "q2": "Onset: When did the leg pain start?",
+        "q3": "Character: How would you describe the leg pain (e.g., sharp, dull, cramping)?",
+        "q4": "Radiation: Does the pain spread to any other areas?",
+        "q5": "Associations: Are there any other symptoms associated with the leg pain (e.g., swelling, weakness)?",
+        "q6": "Time course: How long does the leg pain typically last?",
+        "q7": "Exacerbating/Relieving factors: What seems to worsen or alleviate the leg pain?"
+      }
+    },
+    "s24": {
+      "symptom": "Night leg pain",
+      "questions": {
+        "q1": "Site: Where in your legs do you experience pain at night?",
+        "q2": "Onset: When did the night leg pain start?",
+        "q3": "Character: How would you describe the pain (e.g., cramping, throbbing, aching)?",
+        "q4": "Radiation: Does the pain spread to any other areas?",
+        "q5": "Associations: Are there any other symptoms associated with the night leg pain (e.g., restlessness, tingling)?",
+        "q6": "Time course: How long does the night leg pain usually last?",
+        "q7": "Exacerbating/Relieving factors: What seems to worsen or alleviate the night leg pain?"
+      }
+    },
+    "s25": {
+      "symptom": "Vision problem",
+      "questions": {
+        "q1": "Site: Which eye or eyes are affected by the vision problem?",
+        "q2": "Onset: When did you first notice the vision problem?",
+        "q3": "Character: How would you describe the vision problem (e.g., blurriness, double vision, loss of vision)?",
+        "q4": "Radiation: Does the vision problem affect other visual fields?",
+        "q5": "Associations: Are there any other symptoms associated with the vision problem (e.g., eye pain, headaches)?",
+        "q6": "Time course: How long does the vision problem usually last?",
+        "q7": "Exacerbating/Relieving factors: What seems to worsen or alleviate the vision problem?"
+      }
+    },
+    "s26": {
+      "symptom": "Numbness or tingling in the hands or feet",
+      "questions": {
+        "q1": "Site: Where do you experience the numbness or tingling (e.g., hands, fingers, feet, toes)?",
+        "q2": "Onset: When did the numbness or tingling start?",
+        "q3": "Character: How would you describe the sensation (e.g., pins and needles, loss of sensation)?",
+        "q4": "Radiation: Does the sensation spread to any other areas?",
+        "q5": "Associations: Are there any other symptoms associated with the numbness or tingling (e.g., weakness, difficulty gripping objects)?",
+        "q6": "Time course: How long does the numbness or tingling usually last?",
+        "q7": "Exacerbating/Relieving factors: What seems to worsen or alleviate the numbness or tingling?"
+      }
+    },
+    "s27": {
+      "symptom": "Changes in vision",
+      "questions": {
+        "q1": "Site: What specific changes have you noticed in your vision?",
+        "q2": "Onset: When did the changes in vision start?",
+        "q3": "Character: How would you describe the changes (e.g., halos around lights, flashes of light, sudden loss of vision)?",
+        "q4": "Radiation: Do the changes affect other visual fields?",
+        "q5": "Associations: Are there any other symptoms associated with the changes in vision (e.g., eye pain, floaters)?",
+        "q6": "Time course: How long do the changes in vision typically last?",
+        "q7": "Exacerbating/Relieving factors: What seems to worsen or alleviate the changes in vision?"
+      }
+    },
+    "s28": {
+      "symptom": "Rapid weight gain",
+      "questions": {
+        "q1": "Site: Where have you noticed the weight gain?",
+        "q2": "Onset: When did you first notice the rapid weight gain?",
+        "q3": "Character: How would you describe the weight gain (e.g., sudden, gradual, localized, generalized)?",
+        "q4": "Radiation: Does the weight gain affect other parts of your body?",
+        "q5": "Associations: Are there any other symptoms associated with the rapid weight gain (e.g., swelling, shortness of breath)?",
+        "q6": "Time course: How quickly has the weight gain occurred?",
+        "q7": "Exacerbating/Relieving factors: What seems to worsen or alleviate the rapid weight gain?"
+      }
+    },
+    "s29": {
+      "symptom": "Blue fingernails",
+      "questions": {
+        "q1": "Site: Which fingernails are affected by the bluish color?",
+        "q2": "Onset: When did you first notice the blue discoloration?",
+        "q3": "Character: How would you describe the color (e.g., pale blue, dark blue, purple)?",
+        "q4": "Radiation: Is the discoloration present in other areas of your body?",
+        "q5": "Associations: Are there any other symptoms associated with the blue fingernails (e.g., cold hands, shortness of breath)?",
+        "q6": "Time course: How long have you had the blue fingernails?",
+        "q7": "Exacerbating/Relieving factors: What seems to worsen or alleviate the bluish color?"
+      }
+    },
+    "s30": {
+      "symptom": "Lips",
+      "questions": {
+        "q1": "Site: Are both lips affected by the discoloration?",
+        "q2": "Onset: When did you first notice the change in lip color?",
+        "q3": "Character: How would you describe the color of your lips (e.g., pale, blue, purple)?",
+        "q4": "Radiation: Does the discoloration extend to the surrounding skin?",
+        "q5": "Associations: Are there any other symptoms associated with the lip discoloration (e.g., shortness of breath, chest pain)?",
+        "q6": "Time course: How long have you had the change in lip color?",
+        "q7": "Exacerbating/Relieving factors: What seems to worsen or alleviate the lip discoloration?"
+      }
+    },
+    "s31": {
+      "symptom": "Abdominal pain",
+      "questions": {
+        "q1": "Site: Where is the abdominal pain located?",
+        "q2": "Onset: When did the abdominal pain start?",
+        "q3": "Character: How would you describe the pain (e.g., sharp, cramping, dull)?",
+        "q4": "Radiation: Does the pain spread to any other areas?",
+        "q5": "Associations: Are there any other symptoms associated with the abdominal pain (e.g., nausea, vomiting)?",
+        "q6": "Time course: How long does the abdominal pain usually last?",
+        "q7": "Exacerbating/Relieving factors: What makes the abdominal pain better or worse?"
+      }
+    },
+    "s32": {
+      "symptom": "Loss of appetite",
+      "questions": {
+        "q1": "Onset: When did you first notice a loss of appetite?",
+        "q2": "Character: How would you describe the extent of appetite loss (e.g., complete loss, partial loss)?",
+        "q3": "Associations: Are there any other symptoms or factors associated with the loss of appetite (e.g., weight loss, fatigue)?",
+        "q4": "Duration: How long have you experienced the loss of appetite?",
+        "q5": "Exacerbating/Relieving factors: What seems to worsen or improve your appetite?"
+      }
+    },
+    "s33": {
+      "symptom": "Weight gain",
+      "questions": {
+        "q1": "Onset: When did you first notice the weight gain?",
+        "q2": "Character: How would you describe the rate and pattern of weight gain (e.g., gradual, sudden)?",
+        "q3": "Associations: Are there any other symptoms or factors associated with the weight gain (e.g., swelling, changes in appetite)?",
+        "q4": "Duration: How long have you experienced the weight gain?",
+        "q5": "Exacerbating/Relieving factors: Have there been any changes in your lifestyle or diet that might be related to the weight gain?"
+      }
+    },
+    "s34": {
+      "symptom": "Rapid heartbeat",
+      "questions": {
+        "q1": "Onset: When did you first notice the rapid heartbeat?",
+        "q2": "Character: How would you describe the sensation of your heartbeat (e.g., pounding, racing)?",
+        "q3": "Associations: Are there any other symptoms associated with the rapid heartbeat (e.g., chest pain, shortness of breath)?",
+        "q4": "Duration: How long do episodes of rapid heartbeat typically last?",
+        "q5": "Exacerbating/Relieving factors: What seems to trigger or alleviate the rapid heartbeat?"
+      }
+    }
   }
 }
 
