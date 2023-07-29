@@ -11,3 +11,7 @@ Paper: 3 -> Cornell Medial Index (CMI) -- XX
 
 Clinical Expert Operating System-Chest Pain 
 Danderyd Study (CLEOS-CPDS)
+
+An app-based multilingual digital communication assistance tool (DCAT) for refugee patients was
+developed to collect basic information about patients’ current health complaints and general medical
+history
