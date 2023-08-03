@@ -1,0 +1,356 @@
+#BARSHAT
+
+-- Heart Disease --
+
+{
+  "D1": "Arrythmia",
+  "D2": "Cardiomyopathy",
+  "D3": "Valvular Heart Disease",
+  "D4": "Infective Endocarditis",
+  "D5": "Pericarditis",
+  "D6": "Pericardial Effusion",
+  "D7": "Radiation Arteritis",
+  "D8": "Cor purmonale",
+  "D9": "Familial hypercholesterolemia",
+  "D10": "Hypertrophic cardiomyopathy",
+  "D11": "Dilated Cardiomyopathy",
+  "D12": "Arrythmogenic right ventricular cardiomyopathy",
+  "D13": "Marfan's syndrome",
+  "D14": "Muscular dystrophy",
+  "D15": "Long Q-T syndrome",
+  "D16": "Ischemic Heart Disease",
+  "D17": "Hypertension",
+  "D18": "Type 2 Diabetes Mellitus",
+  "D19": "Hyperlipidaemia",
+  "D20": "Abdominal aortic aneurysm",
+  "D21": "Raynaud's phenomenon",
+  "D22": "Alcoholic cardiomyopathy",
+  "D23": "Endocarditis",
+  "D24": "Arterial Injury and Occlusion",
+  "D25": "Coronary Heart Disease",
+  "D26": "Coronary Artery Disease",
+  "D27": "Tachycardia",
+  "D28": "Acute Rheumatic Carditis",
+  "D29": "Diphtheritic Myocarditis",
+  "D30": "Polyarteritis Nodosa",
+  "D31": "Atrial Septic Defect (ASD)",
+  "D32": "Ventricular Septic Defect (VSD)",
+  "D33": "Patent Ductus Arteriosus",
+  "D34": "Pulmonary Stenosis",
+  "D35": "Aortic Stenosis",
+  "D36": "Coarctation of aorta",
+  "D37": "Transposition of Great Arteries (TGA)",
+  "D38": "Tetralogy of Fallot",
+  "D39": "Overriding aorta",
+  "D40": "Right Ventricular Hypertrophy",
+  "D41": "Tricuspid Atresia",
+  "D42": "Pulmonary Atresia",
+  "D43": "Ebstain's Anomaly",
+  "D44": "Myocardial Ischemia",
+  "D45": "Myocardial Infarction",
+  "D46": "Mitral Valve Prolapse",
+  "D47": "Angina Pectoris",
+  "D48": "Unstable Angina",
+  "D49": "Heart Failure",
+  "D50": "Premature Atrial Contractions (PAC)",
+  "D51": "Premature Ventricular Contractions (PVC)",
+  "D52": "Paroxysmal supraventricular tachycardia (PSVT)",
+  "D53": "Supra Ventriular Tachycardia",
+  "D54": "Ventricular Arrythmia",
+  "D55": "Sinus Tachycardia",
+  "D56": "Brugada Syndrome",
+  "D57": "WPH Syndrome",
+  "D58": "Hypertrophic Cardiomyopathy",
+  "D59": "Atrial Fibrillation (AFib/AF)",
+  "D60": "Ventricular Ectopics",
+  "D61": "Atrioventricular Nodal Reentrant Tachycardia (AVNRT)",
+  "D62": "Atrioventricular Dissociation",
+  "D63": "Tachyarrythmia",
+  "D64": "Aortic Regurgitation",
+  "D65": "Atrial Ectopics",
+  "D66": "Mitral Valve Prolapse",
+  "D67": "Atrial Myxoma",
+  "D68": "Ventricular Tachycardia",
+  "D69": "Atrioventricular Block (AV)",
+  "D70": "Stokes-Adams Syndrome",
+  "D71": "Asystole",
+  "D72": "Ventricular Fibrillation (VFib/VF)",
+  "D73": "Deep Vein Thrombosis (DVT)",
+  "D74": "Veinous Thrombosis",
+  "D75": "Chronic Veinous Insufficiency",
+  "D76": "Venous Obstruction",
+  "D77": "Aneurysm of Aortic Arch",
+  "D78": "Mitral Stenosis",
+  "D79": "Left Ventricular Dysfunction",
+  "D80": "Peripheral Vascular Disease",
+  "D81": "Cerebrovascular Disease",
+  "D82": "Dilated Cardiomyopathy (DCM)"
+}
+
+{
+  "s1": "Chest Pain",
+  "s2": "Dyspnoea/Breathlessness",
+  "s3": "Palpitation",
+  "s4": "Syncope/Fainting",
+  "s5": "Angina",
+  "s6": "Dizziness",
+  "s7": "Oedema/Swelling",
+  "s8": "Fatigue",
+  "s9": "Nausea",
+  "s10": "Vomiting",
+  "s11": "Pain in other areas",
+  "s12": "Cold Sweats",
+  "s13": "Cyanosis/Blue color",
+  "s14": "Irregular heartbeat/Arrythmia",
+  "s15": "Heart Murmurs",
+  "s16": "Excessive Sweating",
+  "s17": "Difficulty Sleeping",
+  "s18": "Changes in nail and skin texture",
+  "s19": "Unexplained Weight Gain",
+  "s20": "Persistent Cough",
+  "s21": "Leg Pain",
+  "s22": "Reduced Exercise Tolerance", 
+  "s23": "Confusion/Memory problems",
+  "s24": "Presyncope"
+}
+
+{
+  "general_questions": {
+
+    "name": {
+      "Q1": {
+        "question": "What is your name?",
+        "answer": null,
+        "type": "blank"
+      }
+    },
+
+    "age": {
+      "Q2": {
+        "question": "How old are you?",
+        "answer": null,
+        "type": "dropdown",
+        "options": [
+          "< 18",
+          "18-30",
+          "31-40",
+          "41-50",
+          "> 50"
+        ]
+      }
+    },
+
+    "gender": {
+      "Q3": {
+        "question": "What is your gender?",
+        "answer": null,
+        "type": "dropdown",
+        "options": [
+          "Male",
+          "Female",
+          "Other"
+        ]
+      }
+    },
+
+    "religion": {
+      "Q4": {
+        "question": "Which religion do you follow?",
+        "answer": null,
+        "type": "dropdown",
+        "options": [
+          "Islam",
+          "Hinduism",
+          "Christianity",
+          "Other"
+        ]
+      }
+    },
+
+    "occupation": {
+      "Q5": {
+        "question": "What is your occupation?",
+        "answer": null,
+        "type": "dropdown",
+        "options": [
+          "Office job",
+          "Field job"
+        ]
+      }
+    },
+
+    "marital status": {
+      "Q6": {
+        "question": "What is your marital status?",
+        "answer": null,
+        "type": "dropdown",
+        "options": [
+          "Unmarried",
+          "Married",
+          "Divorced/Single"
+        ]
+      }
+    },
+
+    "address": {
+      "Q7": {
+        "question": "Where do you live?",
+        "answer": null,
+        "type": "blank"
+      }
+    },
+  },
+
+  "history of present illness": {
+    "s1": {
+      "symptom": "Chest Pain",
+      "questions": {
+        "q1": "Site: Where is the pain located?",
+        "q2": "Onset: Do the pain begin suddenly or gradually?",
+        "q3": "Character: What is the pain like? (Dull/Heavy/Sharp)",
+        "q4": "Radiation: Does the pain stay in one place or does it move or spread?",
+        "q5": "Associated Symptoms: Are there any associated symptoms (Breathlessness, Sweating, Vomiting)?",
+        "q6": "Timing/Duration: When does the pain come and when does it go?",
+        "q7": "Exacerbating/Aggravating Factor: What makes the pain come or makes it worse?",
+        "q8": "Relieving Factor: What makes the pain better?",
+        "q9": "Severity: Does the pain interfere with daily activites or keep the patient awake at night? (Grade 1/2/3/4)"
+      }
+    },
+
+    "s2": {
+      "symptom": "Dyspnoea/Breathlessness",
+      "questions": {
+        "q1": "Onset: Do the breathlessness begin suddenly or gradually?",
+        "q2": "When does the breathlessness come on? Is it present at rest or only on exertion?",
+        "q3": "Is the breathlessness related to time of day or night, posture and other?",
+        "q4": "Associated Symptoms: Are there any associated symptoms (Wheeze, Cough, Haemoptysis)?",
+        "q5": "Timing/Duration: Are there attack of breathlessness at night or not? (Paroxymal Nocturnal Dyspnoea)",
+        "q6": "Exacerbating/Aggravating Factor: ",
+        "q7": "Relieving Factor: Does the patient have to sleep sitting up? (Orthopnoea)",
+        "q8": "Severity: What degree of exertion is necessary to produce the breathlessness? (Grade 1/2/3/4)"
+      }
+    },
+
+    "s3": {
+      "symptom": "Palpitation",
+      "questions": {
+        "q1": "Frequency: How often do you experience the palpitation?",
+        "q2": "Onset: Do the palpitation occur gradually or suddenly?",
+        "q3": "Character: What do the palpitation feel like?",
+        "q4": "Rate: Are the palpitation fast or slow?",
+        "q5": "Rhythm: Are the palpitation regular or irregular?",
+        "q6": "Timing/Duration: How long have you had the palpitation?",
+        "q7": "Exacerbating/Aggravating Factor: Is there anything that trigger the palpitation episodes? (Stress/Exercise/Alcohol/Coffee)",
+        "q8": "Relieving Factor: How do the palpitation stop?",
+        "q9": "Relieving Factor: Have you tried stopping them by straining or holding your breath?",
+        "q10": "Associated Symptoms: Are there any associated symptoms (Dyspnoea/Syncope/Chest pain/Nausea/Sweating/Neck throbbing)",
+        "q11": "Drug history: What kind of medications have you taken?"
+      }
+    },
+
+    "s4": {
+      "symptom": "Syncope/Fainting",
+      "questions": {
+        "q1": "Preceding: What are the preceding events of Fainting?",
+        "q2": "Onset: Was the fainting episode over a period of seconds or developed gradually during a period of several minutes?",
+        "q3": "Position: What is the position at onset of attack of fainting?",
+        "q4": "Associated Symptoms: Are there any associated symptoms?"
+      }
+    },
+
+    "s5": {
+      "symptom": "Oedema/Swelling",
+      "questions": {
+        "q1": "Is the swelling localized or generalized?",
+        "q2": "Is the swelling unilateral or bilateral?",
+        "q3": "Which portion of swelling is first involved?",
+        "q4": "Whether the swelling is persistent or only after standing?",
+        "q5": "Is the swelling limited to the legs or in the face affected?",
+        "q6": "Associated Symptoms: Have you had any other problem with swelling?"
+      }
+    }
+
+  },
+
+  "history of past illness": {
+    "questions": {
+      "q1": "Have you had rheumatic fever during childhood?",
+      "q2": "Have you had heart murmurs during childhood?",
+      "q3": "Have you had hypertension before?",
+      "q4": "Have you had diabetes before?",
+      "q5": "Have you had any kidney disease before?",
+      "q6": "Have you had AFib disease before?",
+      "q7": "Have you had Aortic Regurgitation condition before?",
+      "q8": "Have you had any skin infection before?",
+      "q9": "Have you had done any dental procedure before?",
+      "q10": "Have you had done any intral venous drug use or penetrating trauma before?"
+    }
+
+  },
+
+  "family history": {
+    "questions": {
+      "q1": "Does familial hypercholesterolemia run in your family?",
+      "q2": "Does cardiomyopathy run in your family?",
+      "q3": "Does anybody in your family have Marfan's syndrome?",
+      "q4": "Does anybody in your family have Muscular Dystrophy?",
+      "q5": "Does anybody in your family have Long QT syndrome?",
+      "q6": "Does ischemic heart disease run in your family?",
+      "q7": "Does hypertension run in your family?",
+      "q8": "Does diabetes run in your family?",
+      "q9": "Does hyperlipidaemia run in your family?",
+      "q10": "Does aortic aneurysm run in your family?"
+    }
+
+  }, 
+
+  "occupational history": {
+    "questions": {
+      "q1": "Does your occupation involve working with organic solvents(hydrocarbon)?",
+      "q2": "Does your occupation involve working with vibrating machine tools?",
+      "q3": "Do you work in a Pub?",
+      "q4": "Does your occupation involve cold exposure?",
+      "q5": "Do you work in deep sea diving?",
+      "q6": "Have you had AFib disease before?",
+      "q7": "Have you had Aortic Regurgitation condition before?",
+      "q8": "Have you had any skin infection before?",
+      "q9": "Have you had done any dental procedure before?",
+      "q10": "Have you had done any intral venous drug use or penetrating trauma before?"
+    }
+  },
+
+  "drug history": {
+    "questions": {
+      "q1": "Are there any medications or drugs you are currently taking??",
+      "q2": "Are you currently taking any prescription medications?",
+      "q3": "Have you been prescribed any medications in the past?",
+      "q4": "Have you taken any beta blockers or antidepressants?",
+      "q5": "Have you taken any thyroxine medication?",
+      "q6": "Have you taken any recreational drugs like Cocaine and Amphetamine?",
+      "q7": "Have you taken antihypertensive medications before?",
+      "q8": "Have you taken hypoglycemic drugs before?",
+      "q9": "Have you taken steroids before?",
+      "q10": "Have you taken any vasodilator medications before?"
+    }
+  }, 
+
+  "personal/social history": {
+    "questions": {
+      "q1": "Do you smoke?",
+      "q2": "Do you consume excessive alcohol?",
+      "q3": "Do you take non-prescribed drugs like Amphetamine or cocaine?",
+      "q4": "Have you done any intra venours drug use?"      
+    }
+  },
+
+  "dietary history": {
+    "questions": {
+      "q1": "Does your diet include high fat food items?",
+      "q2": "Does your diet include fresh fruits?",
+      "q3": "Does your diet include vegetables?",
+      "q4": "Does your diet include polyunsaturated fatty acids like fish, nuts, corn, soybean or seeds?"      
+    }
+  }
+}
+
+
