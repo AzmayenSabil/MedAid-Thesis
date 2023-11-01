@@ -60,8 +60,7 @@
   "s31": "Abdominal pain",
   "s32": "Loss of appetite",
   "s33": "Weight gain",
-  "s34": "Rapid heartbeat",
-  "s35": "Insomnia"
+  "s34": "Rapid heartbeat"
 }
 
 
@@ -112,7 +111,8 @@
         "question": "Are you taking any medications for your heart or blood pressure? Have you ever taken any medications for your heart or blood pressure?",
         "answer": null,
         "type": "yes/no"
-      }
+      },
+      "drug_list": {note: "if yes show a list of related drugs to choose from"}
     },
     "alcohol": {
       "Q6": {
@@ -128,13 +128,6 @@
         "type": "yes/no"
       }
     },
-    "sleep_related_issues": {
-      "Q8": {
-        "question":"Do you have any sleep-related issues such as snoring or sleep apnea?",
-        "answer" : null,
-        "type": "yes/no"
-      }
-    }
   },
   "specific_questions": {
     "s1": {
